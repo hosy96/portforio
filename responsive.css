@@ -1,0 +1,187 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1200px) {
+  header {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .header-menu-right {
+    display: none;
+  }
+
+  .top-section {
+    text-align: justify;
+    background-size: cover;
+
+  }
+  
+  body {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  #faq-list {
+    width: 500px;
+    text-align: left;
+    margin-left: 150px;
+  }
+
+  .section-title {
+    text-align: left;
+    margin-left: 100px;
+    
+  }
+
+
+  .interview-section-bottom{
+    padding-top: 400px;
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 80%;
+    height: 800px;
+    float: left;
+  }
+
+    .interview-box{
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    margin-left: 65px;
+    margin-bottom: 60px;
+    padding-left: 30px;
+  }
+
+
+
+  .interview-image {
+    position: relative;
+    float: left;
+    margin-left: 250px;
+    border-radius: 50%;
+
+  }
+  
+
+
+
+  
+
+  footer {
+    text-align: center;
+  }
+
+}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+  body {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .top-description h2 {
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+
+
+  .faq-wrapper {
+    text-align: left;
+  }
+
+
+  #faq-list {
+    width: 500px;
+    text-align: left;
+    margin-left: 10px;
+    padding-left: 20px;
+  }
+
+  .section-title {
+    text-align: left;
+    margin-left: -20px;
+    
+  }
+
+  .interview-section-bottom{
+    padding-top: 120px;
+    margin-left: 15px;
+    padding-top: 20px;
+    padding-left: 00px;
+    padding-bottom: 10px;
+    width: 90%;
+    height: 800px;
+    float: inline-start;
+  }
+
+  .interview-box{
+    display: inline-block;
+    width: 50%;
+    margin-left: 65px;
+    margin-bottom: 60px;
+    padding-left: 0px;
+  }
+
+  .interview-image {
+    position: relative;
+    margin-left: 130px;
+    float: left;
+  }
+
+
+  .change-btn-wrapper {
+    width: 500px;
+    margin: 10px auto;
+    padding-top: 10px;
+    font-size: 18px;
+  }
+  
+
+  .slide img {
+    width: 500px;
+    height: 350px;
+    border-radius: 5px;
+  }
+  
+
+  .section-title{
+    margin-left: -10px;
+    font-size: 12px;
+  }
+
+  .contact-form{
+    width: 50%;
+    margin-left: 10px;
+  }
+
+
+  .contact-about{
+    display: none;
+  }
+
+  .section-title h3 {
+    padding-left: -10px;
+    margin: 0px 0;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 36px;
+  }
+  
+
+
+
+  .social-icon{
+    float: left;
+    margin-left: auto;
+  }
+
+  .copyright {
+    float: left;
+
+  }
+  
+
+}
