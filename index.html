@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Seiya_Yamashita</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- ヘッダー -->
+    <header>
+      <div class="container">
+        <div class="header-title">
+          <div id="top-btn" class="header-logo">SEIYA Yamashita★  Profile</div>
+        </div>
+        <div class="header-menu">
+          <ul class="header-menu-right">
+            <li>
+              <a href="#profile">プロフィール</a>
+            </li>
+            <li>
+              <a href="#interview">自己紹介</a>
+            </li>
+            <li>
+              <a href="#photos">写真集</a>
+            </li>
+            <li>
+              <a href="#contact">お問い合わせ</a>
+            </li>
+          </ul>
+          <div class="wrapper">
+            <div class="menu-trigger" href="">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <nav>
+              <ul>
+                <li>
+                  <a href="#profile">プロフィール</a>
+                </li>
+                <li>
+                  <a href="#interview">自己紹介</a>
+                </li>
+                <li>
+                  <a href="#photos">写真集</a>
+                </li>
+                <li>
+                  <a href="#contact">お問い合わせ</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="overlay"></div>
+          </div>      
+        </div>
+      </div>
+    </header>
+
+    <!-- ハンバーガー-->
+
+    <!-- モーダル 未完成-->
+    <div class="signup-modal-wrapper" id="signup-modal">
+      <div class="modal">
+        <div id="close-modal">
+          <i class="fa fa-2x fa-times"></i>
+        </div>
+        <div id="signup-form">
+          <h2>Emailで新規登録</h2>
+          <form action="#">
+            <input class="form-control" type="text" placeholder="メールアドレス">
+            <input class="form-control" type="password" placeholder="パスワード">
+            <div id="submit-btn">新規登録</div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- トップ部分 -->
+    <div class="top-section gray-section">
+      <div class="top-inner">
+        <div class="container">
+          <div class="top-description">
+            <h2>ようこそ！山下星夜のプロフィールHPへ！</h2>
+            <p>20代後半、神奈川県在住のサラリーマンを紹介します。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!--　アコーディオン-->
+    <div id="profile" class="faq-wrapper">
+      <div class="container">
+        <div class="faq">
+          <ul id="faq-list">
+            <li class="faq-list-item">
+              <h2 class="question">経歴</h2>
+              <span>+</span>
+              <div class="answer">
+                <p>文系大学卒業→ 自動車販売ディーラー営業　→未経験でIT業界</p>
+              </div>
+            </li>
+            <li class="faq-list-item">
+              <h2 class="question">趣味</h2>
+              <span>+</span>
+              <div class="answer">
+                <p>フットサル、映画鑑賞、旅行、ドライブ</p>
+              </div>
+            </li>
+            <li class="faq-list-item">
+              <h2 class="question">将来の夢</h2>
+              <span>+</span>
+              <div class="answer">
+                <p>ヨーロッパサッカー現地で生観戦<br>
+                  マイカーで日本一周旅行<br>
+                                 
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  
+
+
+
+
+
+
+
+    <!-- インタビュー -->
+    <div id="interview" class="interview-section">
+      <div class="interview-section-top gray-section">
+        <div class="container">
+          <div class="section-title">
+            <h3>自己紹介</h3>
+          </div>
+          <img class="interview-image" src="./images/seiya.JPG">
+        </div>
+      </div>
+      <div class="interview-section-bottom">
+        <div class="container">
+          <div class="interview-box">
+            <h5>生年月日</h5>
+            <p>1992年12月16日</p>
+          </div>
+          <div class="interview-box">
+            <h5>特技</h5>
+            <p>
+            ・ブラインドタッチでタイピング<br>
+            ・リフティング<br>
+            ・筋トレ</p>
+          </div>
+          <div class="interview-box">
+            <h5>習慣にしていること</h5>
+            <p>・プログラミング学習→30日以上継続中<br>
+            ・筋トレ→3年以上継続<br>
+            ・食事管理→2年半継続<br>
+            ・家計簿で支出管理→3年継続</p>
+          </div>
+          <div class="interview-box">
+            <h5>プログラミング学習履歴</h5>
+            <p>・Java<br>
+            ・HTML/CSS<br>
+            ・JavaScript<br>
+            ・jQuery<br>
+            ・Ruby<br>
+            ・Ruby on Rails</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-wrapper">
+        <div class="change-btn-wrapper">
+          <h2 class="slide-title">Like Photo's list...</h2>
+          <div id="photos"></div>
+          <div class="change-btn prev-btn">← 前へ</div>
+          <div class="change-btn next-btn">次へ →</div>
+        </div>
+        <ul class="slides">
+          <li class="slide active"><img src="./images/footsaru.JPG"><p><br>フットサル　週1でボール蹴ってます！</p></li>
+          <li class="slide"><img src="./images/yoko.JPG"><p><br>サッカー観戦</p></li>
+          <li class="slide"><img src="./images/ra-men.JPG"><p><br>大好きなラーメン</p></li>
+          <li class="slide"><img src="./images/sawayaka.JPG"><p><br>静岡にあるさわやかハンバーグ</p></li>
+          <li class="slide"><img src="./images/drive.jpg"><p><br>マイカーでドライブ</p></li>
+        </ul>
+        <div class="index-btn-wrapper">
+          <div class="index-btn">1</div>
+          <div class="index-btn">2</div>
+          <div class="index-btn">3</div>
+          <div class="index-btn">4</div>
+          <div class="index-btn">5</div>
+        </div>
+      </div>
+
+
+        <!-- スライダー -->
+        <!-- <div id="stamps" class="stamps-section">
+          <div class="container">
+            <div class="section-title">
+              <h3>LINEスタンプ大好評発売中！</h3>
+            </div>
+            <div id="stamp-carousel" class="carousel slide" data-ride="carousel"> 
+              <ol class="carousel-indicators">
+                <li data-target="#stamp-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#stamp-carousel" data-slide-to="1" class=""></li>
+                <li data-target="#stamp-carousel" data-slide-to="2" class=""></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="item stamp-box active">
+                  <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/jquery/advanced/LineStamp1.jpg" class="stamp-image">
+                  <h4>にんじゃわんこがLINEスタンプに登場！</h4>
+                </div>
+                <div class="item stamp-box">
+                  <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/jquery/advanced/LineStamp2.jpg" class="stamp-image">
+                  <h4>プログラミング関連のスタンプも！</h4>
+                </div>
+                <div class="item stamp-box">
+                  <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/jquery/advanced/LineStamp3.jpg" class="stamp-image">
+                  <h4>新キャラ・ベイビーわんこも！</h4>
+                </div>
+              </div> 
+            </div> 
+            <p>全40種類！使いやすく、可愛い！にんじゃわんこの日常を表現したスタンプです！<br>
+              ご購入は<a class="stamp-link" href="https://store.line.me/stickershop/product/1132359/ja" target="_blank"> こちら</a>（LINE STORE）から！
+            </p>
+          </div>
+        </div> -->
+    
+   
+
+
+
+    <!-- Contact -->
+    <div id="contact" class="contact-section gray-section">
+      <div class="contact-section-inner">
+        <div class="container">
+          <div class="section-title">
+            <h3>お問い合わせ</h3>
+          </div>
+          <div class="contact-form">
+            <h4>Message...</h4>
+            <form>
+              <div class="error-message"></div>
+              <input type="text" name="name" placeholder="お名前" class="contact-name">
+              <div class="error-message"></div>
+              <input type="text" name="email" placeholder="メールアドレス" class="contact-email">
+              <div class="error-message"></div>
+              <textarea name="message" placeholder="メッセージ内容"></textarea>
+              <div class="btn btn-contact signup-show">送信</div>
+            </form>
+          </div>
+          <div class="contact-about">
+            <h4>Announce</h4>
+            <p>質問・問い合わせお気軽にお問い合わせください。
+            </p>
+            <h4>Address</h4>
+            <p>
+              <i class="fa fa-map-marker"></i>神奈川県
+            </p>
+            <p>
+              <i class="fa fa-phone"></i>Phone: xx-xxxx-xxxx
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="follow-us">
+          <a href="https://www.facebook.com/Progate-742679992421539" class="social-icon" target='_blank'>
+            <span class="fa fa-facebook"></span>
+          </a>
+          <a href="https://twitter.com/progatejp" class="social-icon" target='_blank'>
+            <span class="fa fa-twitter"></span>
+          </a>
+        </div>
+        <div class="copyright">©2020-Seiya.Y
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
