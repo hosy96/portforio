@@ -320,8 +320,8 @@ nav li {
 
 .top-inner {
   padding: 0;
-  padding-top: 180px;
-  padding-bottom: 120px;
+  padding-top: 70px;
+  padding-bottom: 60px;
 }
 
 .top-description {
@@ -331,16 +331,18 @@ nav li {
 
 .top-section h2 {
   font-family: 'Dosis', sans-serif;
-  color:  rgba(22, 51, 212, 0.418);
+  color:  rgba(10, 150, 243, 0.5);
   font-size: 48px;
+  font-weight: bold;
   line-height: 54px;
-  margin: 10px 0 30px 0;
+  margin: 10px 0 10px 0;
   font-weight: 400;
 }
 
 .top-description p {
   color:  rgba(22, 51, 212, 0.418);
   font-size: 18px;
+  font-weight: bold;
   line-height: 30px;
 }
 
@@ -369,7 +371,7 @@ nav li {
   width: auto;
   margin: 0 auto;
   color: #5e6f84;
-  padding: 60px 0;
+  padding: 20px 0;
   background-image: url("./images/05-white-brick.png");
 }
 
@@ -445,6 +447,8 @@ nav li {
   width: 650px;
   height: 460px;
   border-radius: 5px;
+  box-shadow: 6px 6px 4px gray;
+  background-size: cover;
 }
 
 .slide p {
@@ -459,8 +463,8 @@ nav li {
 
 .index-btn {
   display: inline-block;
-  color: #4e90af;
-  background-color: #e0f5ff;
+  color: #fff;
+  background-color: #5870f85d;
   width: 40px;
   padding: 6px 0;
   margin: 0 5px;
@@ -470,7 +474,8 @@ nav li {
 
 .index-btn:hover {
   color: #fff;
-  background-color: #5cabd0;
+  background-color: navy;
+  opacity: 0.8;
 }
 
 
@@ -529,6 +534,8 @@ nav li {
 .stamps-section {
   text-align: center;
   padding-bottom: 60px;
+  background-image: url(./images/05-white-brick.png);
+
 }
 
 #stamps > .container {
@@ -570,17 +577,26 @@ nav li {
 .interview-section-top {
   text-align: center;
   height: 376px;
+
+}
+
+.interview-section{
+  background-image: url(./images/05-white-brick.png);
+  background-position:center;
+  height: 1000px;
 }
 
 .interview-section-bottom {
   padding-top: 120px;
   margin-top: 20px;
-  margin-bottom: 30px;
   margin-right: 40px;
-  float: right;
-  padding-left: 120px;
+  margin-left: 350px;
+  margin-bottom: 30px;
+  box-shadow: 6px 6px 4px gray;
+  padding-left: 10px;
   background-color: burlywood;
   border-radius: 5%;
+  width: 1000px;
   
 }
 
