@@ -12,8 +12,12 @@
   .top-section {
     text-align: justify;
     background-size: cover;
-
   }
+
+  .top-description h2 {
+    font-size: 36px;
+  }
+
   
   body {
     width: 100%;
@@ -40,8 +44,7 @@
     padding-left: 10px;
     padding-bottom: 10px;
     width: 80%;
-    height: 800px;
-    float: left;
+    height: 850px;
   }
 
     .interview-box{
@@ -53,6 +56,11 @@
     padding-left: 30px;
   }
 
+
+  .interview-section{
+
+    height: 1300px;
+  }
 
 
   .interview-image {
@@ -107,19 +115,18 @@
   }
 
   .interview-section-bottom{
-    padding-top: 120px;
-    margin-left: 15px;
+    padding-top: 100px;
+    margin-left: 30px;
     padding-top: 20px;
-    padding-left: 00px;
+    padding-left: 0px;
     padding-bottom: 10px;
     width: 90%;
-    height: 800px;
-    float: inline-start;
+    height: 850px;
   }
 
   .interview-box{
     display: inline-block;
-    width: 50%;
+    width: 70%;
     margin-left: 65px;
     margin-bottom: 60px;
     padding-left: 0px;
@@ -170,9 +177,6 @@
     line-height: 36px;
   }
   
-
-
-
   .social-icon{
     float: left;
     margin-left: auto;
